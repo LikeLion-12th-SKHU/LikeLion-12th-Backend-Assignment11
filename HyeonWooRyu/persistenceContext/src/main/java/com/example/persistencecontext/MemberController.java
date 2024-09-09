@@ -41,4 +41,10 @@ public class MemberController {
         memberService.deleteMember(id);
         return ResponseEntity.ok("사용자 삭제!");
     }
+
+    // ID를 통해 동일성 확인과 병합
+    @GetMapping("/merge/{id}")
+    public ResponseEntity<String> checkAndMerge(@PathVariable Long id) {
+        return ResponseEntity.ok("동일성 확인과 엔티티 병합");
+    }
 }
