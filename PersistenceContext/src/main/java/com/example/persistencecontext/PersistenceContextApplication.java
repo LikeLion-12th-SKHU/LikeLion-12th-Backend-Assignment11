@@ -1,4 +1,4 @@
-package org.example.persistencecontext;
+package com.example.persistencecontext;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
